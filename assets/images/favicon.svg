@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#06111f"/>
+  
+  <!-- Coroa Lime-Gold -->
+  <g transform="translate(18, 10)">
+    <path d="M 2 16 L 6 4 L 11 10 L 15 2 L 19 10 L 24 4 L 28 16 Z" fill="#C2D82E"/>
+    <circle cx="6" cy="3" r="1.5" fill="#C2D82E"/>
+    <circle cx="15" cy="1" r="1.8" fill="#C2D82E"/>
+    <circle cx="24" cy="3" r="1.5" fill="#C2D82E"/>
+  </g>
+
+  <!-- Letra 'Ö' estilizada da Lord's -->
+  <circle cx="32" cy="40" r="16" stroke="#FFFFFF" stroke-width="4.5" fill="none"/>
+  
+  <!-- 3 Pontos Superiores -->
+  <circle cx="28" cy="31" r="1.2" fill="#7EB5CB"/>
+  <circle cx="32" cy="30" r="1.4" fill="#7EB5CB"/>
+  <circle cx="36" cy="31" r="1.2" fill="#7EB5CB"/>
+
+  <!-- Onda de Água no interior -->
+  <path d="M 20 42 Q 26 38, 32 42 T 44 42 L 44 48 C 41 53, 23 53, 20 48 Z" fill="#84BFD8"/>
+</svg>

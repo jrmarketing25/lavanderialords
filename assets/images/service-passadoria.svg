@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bg-passadoria" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="iron-metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <linearGradient id="iron-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D223A" />
+      <stop offset="100%" stop-color="#153252" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo da Estação de Passadoria -->
+  <rect width="600" height="420" fill="url(#bg-passadoria)" />
+  
+  <!-- Tábua / Superfície de Passadoria Profissional -->
+  <rect x="0" y="280" width="600" height="140" fill="#FFFFFF" />
+  <line x1="0" y1="280" x2="600" y2="280" stroke="#CBD5E1" stroke-width="2" />
+
+  <!-- Pilha de Roupas Passadas e Dobradas ao Fundo Esquerdo -->
+  <g transform="translate(60, 150)">
+    <rect x="0" y="85" width="160" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <rect x="10" y="45" width="140" height="40" rx="8" fill="#BAE6FD" stroke="#7DD3FC" stroke-width="1" opacity="0.6" />
+    <rect x="20" y="8" width="120" height="38" rx="8" fill="#0D223A" opacity="0.7" stroke="#06111F" stroke-width="1" />
+  </g>
+
+  <!-- Ferro de Passar a Vapor Profissional em Destaque -->
+  <g transform="translate(250, 100)">
+    <!-- Base / Sola de Metal Polido -->
+    <path d="M 40 185 L 260 185 C 285 185, 295 160, 275 140 L 160 35 C 150 25, 130 25, 120 35 L 40 185 Z" fill="url(#iron-metal)" />
+    
+    <!-- Corpo Anatômico do Ferro -->
+    <path d="M 60 175 L 245 175 C 265 175, 270 155, 255 140 L 160 45 C 155 40, 140 40, 135 45 L 60 175 Z" fill="url(#iron-body)" />
+
+    <!-- Reservatório e Detalhe em Azul Ciano -->
+    <path d="M 100 140 L 210 140 C 225 140, 220 120, 210 110 L 160 65 L 120 110 Z" fill="#38BDF8" opacity="0.3" stroke="#38BDF8" stroke-width="1.5" />
+
+    <!-- Alça Ergonômica -->
+    <path d="M 60 155 C 40 110, 60 50, 110 40 L 190 40 C 220 40, 235 70, 220 100" stroke="#06111F" stroke-width="22" stroke-linecap="round" fill="none" />
+    <path d="M 60 155 C 40 110, 60 50, 110 40 L 190 40 C 220 40, 235 70, 220 100" stroke="#D4AF37" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8" />
+
+    <!-- Vapor Suave e Impecável -->
+    <g opacity="0.4" stroke="#38BDF8" stroke-width="2" stroke-linecap="round">
+      <path d="M 40 195 Q 20 220 10 245" />
+      <path d="M 90 195 Q 70 225 65 255" />
+      <path d="M 140 195 Q 130 225 135 255" />
+    </g>
+  </g>
+</svg>
+

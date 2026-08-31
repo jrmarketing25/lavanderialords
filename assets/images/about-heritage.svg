@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 400" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="vintage-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EFEA" />
+      <stop offset="100%" stop-color="#E5DCD3" />
+    </linearGradient>
+    <linearGradient id="van-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E2DDD5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo Sépia / Fotografia Histórica -->
+  <rect width="540" height="400" fill="url(#vintage-bg)" />
+  
+  <!-- Linhas Arquiteturais da Fachada Clássica ao Fundo -->
+  <g opacity="0.65" stroke="#9C8E80" stroke-width="1.5">
+    <!-- Parede de Tijolos Clássicos -->
+    <line x1="20" y1="60" x2="520" y2="60" />
+    <line x1="20" y1="120" x2="520" y2="120" />
+    <line x1="20" y1="180" x2="520" y2="180" />
+    <line x1="20" y1="240" x2="520" y2="240" />
+
+    <!-- Fachada com Letreiro Vintage Clássico -->
+    <rect x="50" y="45" width="440" height="60" rx="4" fill="#E8DFD5" stroke="#7A6C5D" stroke-width="2" />
+    <text x="270" y="82" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="22" font-weight="bold" fill="#4A3F35" letter-spacing="3">CIA. LAVANDERIA LORD'S</text>
+  </g>
+
+  <!-- Calçada / Rua Histórica -->
+  <rect x="0" y="270" width="540" height="130" fill="#D6CBC0" />
+  <line x1="0" y1="270" x2="540" y2="270" stroke="#7A6C5D" stroke-width="2" />
+
+  <!-- Van / Furgão Vintage de Coleta e Entrega Lord's Lavanderia -->
+  <g transform="translate(100, 140)">
+    <!-- Sombra do Veículo no Solo -->
+    <ellipse cx="170" cy="190" rx="160" ry="14" fill="#5E5347" opacity="0.35" />
+
+    <!-- Chassi e Carroceria Principal -->
+    <path d="M 30 145 L 30 75 C 30 55, 45 40, 65 38 L 140 35 C 160 35, 290 35, 300 45 L 310 145 Z" fill="url(#van-body)" stroke="#5E5347" stroke-width="2" />
+    
+    <!-- Cabine / Frente Arredondada Retrô -->
+    <path d="M 30 75 C 30 60, 40 45, 55 42 L 80 40 L 95 78 L 30 80 Z" fill="#D6CBC0" stroke="#5E5347" stroke-width="1.5" />
+    <!-- Vidro da Frente -->
+    <path d="M 58 46 L 78 44 L 90 74 L 38 76 C 42 60, 48 50, 58 46 Z" fill="#FAF7F2" stroke="#7A6C5D" stroke-width="1" />
+    <!-- Vidro Lateral do Motorista -->
+    <rect x="100" y="44" width="40" height="32" rx="3" fill="#FAF7F2" stroke="#7A6C5D" stroke-width="1" />
+
+    <!-- Farol Dianteiro Redondo Vintage -->
+    <circle cx="28" cy="115" r="8" fill="#FDE047" stroke="#5E5347" stroke-width="1.5" />
+    <circle cx="28" cy="115" r="4" fill="#FFFFFF" />
+
+    <!-- Pára-choque Cromado Antigo -->
+    <rect x="15" y="140" width="30" height="12" rx="4" fill="#CBD5E1" stroke="#5E5347" stroke-width="1.5" />
+
+    <!-- Painel Lateral com Tipografia Histórica -->
+    <g transform="translate(160, 60)">
+      <!-- Coroa Retrô -->
+      <path d="M 52 4 L 56 12 L 63 7 L 70 16 L 42 16 L 48 7 Z" fill="#B2851D" />
+      <text x="56" y="32" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="19" font-weight="bold" fill="#4A3F35" letter-spacing="1">LORD'S</text>
+      <text x="56" y="44" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="bold" fill="#7A6C5D" letter-spacing="3">LAVANDERIA</text>
+      <text x="56" y="56" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="6" font-style="italic" fill="#8C7D6E">Ijuí &bull; RS</text>
+    </g>
+
+    <!-- Rodas Vintage com Calota Central -->
+    <!-- Roda Dianteira -->
+    <g transform="translate(70, 145)">
+      <circle cx="24" cy="24" r="26" fill="#3D352E" />
+      <circle cx="24" cy="24" r="18" fill="#E2DDD5" stroke="#5E5347" stroke-width="1.5" />
+      <circle cx="24" cy="24" r="9" fill="#B2851D" stroke="#3D352E" stroke-width="1" />
+    </g>
+
+    <!-- Roda Traseira -->
+    <g transform="translate(240, 145)">
+      <circle cx="24" cy="24" r="26" fill="#3D352E" />
+      <circle cx="24" cy="24" r="18" fill="#E2DDD5" stroke="#5E5347" stroke-width="1.5" />
+      <circle cx="24" cy="24" r="9" fill="#B2851D" stroke="#3D352E" stroke-width="1" />
+    </g>
+  </g>
+</svg>
+

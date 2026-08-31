@@ -1,0 +1,8 @@
+{
+  "name": "lords-lavanderia",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node scripts/build.mjs"
+  }
+}

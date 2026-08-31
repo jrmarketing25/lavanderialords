@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bg-roupas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="shirt-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BAE6FD" />
+      <stop offset="100%" stop-color="#7DD3FC" />
+    </linearGradient>
+    <linearGradient id="hanger-wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C59B27" />
+      <stop offset="100%" stop-color="#9A7B1C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo do Card -->
+  <rect width="600" height="420" fill="url(#bg-roupas)" />
+
+  <!-- Ambiente de Lavanderia / Closet Studio Clean -->
+  <rect x="0" y="0" width="600" height="420" fill="#F1F5F9" />
+  
+  <!-- Linha do Varão / Arara Minimalista -->
+  <line x1="50" y1="90" x2="550" y2="90" stroke="#94A3B8" stroke-width="6" stroke-linecap="round" />
+  <circle cx="50" cy="90" r="8" fill="#64748B" />
+  <circle cx="550" cy="90" r="8" fill="#64748B" />
+
+  <!-- Camisa 1 (Fundo - Branca) -->
+  <g transform="translate(140, 85)" opacity="0.65">
+    <path d="M 60 5 C 45 5, 20 25, 0 45 L 25 75 L 45 60 L 45 280 L 175 280 L 175 60 L 195 75 L 220 45 C 200 25, 175 5, 160 5 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <path d="M 60 5 Q 110 35 160 5" stroke="#CBD5E1" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- Camisa 2 (Foco Principal - Azul Oxford Impecável) -->
+  <g transform="translate(190, 85)">
+    <!-- Cabide de Madeira Nobre -->
+    <path d="M 110 5 C 110 -15, 95 -25, 95 -35 C 95 -45, 115 -45, 115 -35" stroke="#D4AF37" stroke-width="3.5" fill="none" stroke-linecap="round" />
+    <path d="M 10 50 L 110 8 L 210 50 C 205 58, 15 58, 10 50 Z" fill="url(#hanger-wood)" />
+    
+    <!-- Corpo da Camisa -->
+    <path d="M 50 15 C 30 20, 10 45, -15 70 L 18 105 L 45 85 L 45 320 L 175 320 L 175 85 L 202 105 L 235 70 C 210 45, 190 20, 170 15 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+    <path d="M 50 15 C 30 20, 10 45, -15 70 L 18 105 L 45 85 L 45 320 L 175 320 L 175 85 L 202 105 L 235 70 C 210 45, 190 20, 170 15 Z" fill="url(#shirt-blue)" opacity="0.35" />
+    
+    <!-- Colarinho Estruturado & Botões -->
+    <path d="M 50 15 L 110 65 L 170 15 L 145 10 L 110 35 L 75 10 Z" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5" />
+    <line x1="110" y1="65" x2="110" y2="320" stroke="#94A3B8" stroke-width="1.5" />
+    <circle cx="110" cy="110" r="3.5" fill="#FFFFFF" stroke="#64748B" stroke-width="1" />
+    <circle cx="110" cy="160" r="3.5" fill="#FFFFFF" stroke="#64748B" stroke-width="1" />
+    <circle cx="110" cy="210" r="3.5" fill="#FFFFFF" stroke="#64748B" stroke-width="1" />
+    <circle cx="110" cy="260" r="3.5" fill="#FFFFFF" stroke="#64748B" stroke-width="1" />
+  </g>
+
+  <!-- Camisa 3 (Fundo Direito - Branca de Linho) -->
+  <g transform="translate(265, 85)" opacity="0.8">
+    <path d="M 50 15 C 30 20, 10 45, -15 70 L 18 105 L 45 85 L 45 300 L 175 300 L 175 85 L 202 105 L 235 70 C 210 45, 190 20, 170 15 Z" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <path d="M 50 15 L 110 55 L 170 15 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1" />
+  </g>
+</svg>
+
