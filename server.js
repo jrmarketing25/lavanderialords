@@ -123,23 +123,20 @@ function renderPhpTemplate(filePath) {
 
   // 1. Processa o loop de cards de serviços na seção #servicos
   const serviceCardTemplate = (service) => {
-    let iconSvg = '';
-    if (service.icon === 'hanger') {
-      iconSvg = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3c0 .8.4 1.4 1 2L2 14.5A2.5 2.5 0 0 0 4.5 17H19.5a2.5 2.5 0 0 0 2.5-2.5L14 7c.6-.6 1-1.2 1-2a3 3 0 0 0-3-3z"></path><line x1="2" y1="17" x2="22" y2="17"></line></svg>`;
-    } else if (service.icon === 'rug') {
-      iconSvg = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M7 5v14M17 5v14M3 12h18"></path></svg>`;
-    } else if (service.icon === 'sofa') {
-      iconSvg = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"></path><path d="M2 11h20v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6z"></path><path d="M4 19v2M20 19v2"></path></svg>`;
-    } else if (service.icon === 'iron') {
-      iconSvg = `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2z"></path><path d="M2 12h20"></path><circle cx="8" cy="9" r="1"></circle></svg>`;
-    }
+  const iconMap = {
+    hanger: 'assets/images/icon-roupas.png',
+    rug:    'assets/images/icon-tapetes.png',
+    sofa:   'assets/images/icon-estofados.png',
+    iron:   'assets/images/icon-passadoria.png',
+  };
+  const iconSrc = iconMap[service.icon] || '';
 
     return `
       <article class="service-card" id="${service.anchor_id}">
         <div class="service-image-wrap">
           <img src="${service.image}" alt="${service.title}" width="208" height="124" loading="lazy">
           <span class="service-icon" aria-hidden="true">
-            ${iconSvg}
+            <img src="${iconSrc}" alt="" width="72" height="72" loading="lazy">
           </span>
         </div>
         <div class="service-content">
