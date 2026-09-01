@@ -49,7 +49,7 @@ include __DIR__ . '/includes/header.php';
                         <img src="<?php echo htmlspecialchars($service['image']); ?>" alt="<?php echo htmlspecialchars($service['title']); ?>" width="208" height="124" loading="lazy">
                         <?php
                             $icon_map = [
-                                'hanger' => 'assets/images/icon-roupas.jpg',
+                                'hanger' => 'assets/images/icon-roupas.png',
                                 'rug'    => 'assets/images/icon-tapetes.png',
                                 'sofa'   => 'assets/images/icon-estofados.png',
                                 'iron'   => 'assets/images/icon-passadoria.png',
