@@ -25,7 +25,7 @@ $current_page = isset($current_page) ? $current_page : 'home';
     <link rel="canonical" href="<?php echo BASE_URL ?: '/'; ?>">
 
     <!-- Favicon Oficial -->
-    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 
     <!-- GEO Tags para SEO Local em Ijuí/RS -->
     <meta name="geo.region" content="BR-RS">
@@ -40,13 +40,13 @@ $current_page = isset($current_page) ? $current_page : 'home';
     <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">
     <meta property="og:url" content="<?php echo BASE_URL ?: '/'; ?>">
     <meta property="og:site_name" content="<?php echo COMPANY_NAME; ?>">
-    <meta property="og:image" content="assets/images/logo.svg">
+    <meta property="og:image" content="/assets/images/logo.svg">
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
-    <meta name="twitter:image" content="assets/images/logo.svg">
+    <meta name="twitter:image" content="/assets/images/logo.svg">
 
     <!-- Preconnect e Google Fonts: Playfair Display, DM Serif Display & Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +54,7 @@ $current_page = isset($current_page) ? $current_page : 'home';
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Estilo Principal -->
-    <link rel="stylesheet" href="assets/css/style.css?v=1.1">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <!-- Schema.org JSON-LD (Negócio Local / DryCleaningOrLaundry em Ijuí/RS) -->
     <script type="application/ld+json">
@@ -62,7 +62,7 @@ $current_page = isset($current_page) ? $current_page : 'home';
       "@context": "https://schema.org",
       "@type": "DryCleaningOrLaundry",
       "name": "<?php echo COMPANY_NAME; ?>",
-      "image": "assets/images/logo.svg",
+      "image": "/assets/images/logo.svg",
       "url": "<?php echo BASE_URL ?: '/'; ?>",
       "telephone": "+55 55 3332-1049",
       "priceRange": "$$",
@@ -156,7 +156,7 @@ $current_page = isset($current_page) ? $current_page : 'home';
         <div class="container header-container">
             <!-- Logo -->
             <a href="index.php" class="header-logo" aria-label="<?php echo COMPANY_NAME; ?> - Página Inicial">
-                <img src="assets/images/logo.png?v=2.0" alt="<?php echo COMPANY_NAME; ?> - Desde 1962" width="220" height="118" fetchpriority="high">
+                <img src="/assets/images/logo.png" alt="<?php echo COMPANY_NAME; ?> - Desde 1962" width="220" height="118" fetchpriority="high">
             </a>
 
             <!-- Navegação Desktop -->

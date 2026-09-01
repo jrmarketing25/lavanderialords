@@ -1,4 +1,4 @@
-﻿import { cp, mkdir, rm, readFile, writeFile, access } from "node:fs/promises";
+import { cp, mkdir, rm, readFile, writeFile, access } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
@@ -55,36 +55,36 @@ const config = {
       anchor_id: "servico-lavagem-roupas",
       title: "Lavagem de Roupas",
       description: "Roupas limpas, perfumadas e bem cuidadas. Do dia a dia às peças mais especiais.",
-      image: "assets/images/service-roupas.jpg",
+      image: "/assets/images/service-roupas.jpg",
       icon: "hanger",
-      iconSrc: "assets/images/icon-roupas.png"
+      iconSrc: "/assets/images/icon-roupas.png"
     },
     {
       id: "lavagem-tapetes",
       anchor_id: "servico-lavagem-tapetes",
       title: "Lavagem de Tapetes",
       description: "Removemos sujeiras, ácaros e odores, preservando as cores e a textura do seu tapete.",
-      image: "assets/images/service-tapetes.jpg",
+      image: "/assets/images/service-tapetes.jpg",
       icon: "rug",
-      iconSrc: "assets/images/icon-tapetes.png"
+      iconSrc: "/assets/images/icon-tapetes.png"
     },
     {
       id: "higienizacao-estofados",
       anchor_id: "servico-higienizacao-estofados",
       title: "Higienização de Estofados",
       description: "Mais saúde e bem-estar para sua família com higienização profunda e segura.",
-      image: "assets/images/service-estofados.jpg",
+      image: "/assets/images/service-estofados.jpg",
       icon: "sofa",
-      iconSrc: "assets/images/icon-estofados.png"
+      iconSrc: "/assets/images/icon-estofados.png"
     },
     {
       id: "passadoria",
       anchor_id: "servico-passadoria",
       title: "Passadoria",
       description: "Acabamento impecável com praticidade para o seu dia a dia. Peças prontas para usar.",
-      image: "assets/images/service-passadoria.jpg",
+      image: "/assets/images/service-passadoria.jpg",
       icon: "iron",
-      iconSrc: "assets/images/icon-passadoria.png"
+      iconSrc: "/assets/images/icon-passadoria.png"
     }
   ]
 };

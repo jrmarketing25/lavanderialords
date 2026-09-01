@@ -3,7 +3,7 @@
     <footer class="site-footer">
         <div class="container footer-grid">
             <div class="footer-brand">
-                <a href="index.php" aria-label="Lord's Lavanderia - Início"><img src="assets/images/logo-white.png?v=2.0" alt="Lord's Lavanderia" width="220" height="118" loading="lazy"></a>
+                <a href="index.php" aria-label="Lord's Lavanderia - Início"><img src="/assets/images/logo-white.png" alt="Lord's Lavanderia" width="220" height="118" loading="lazy"></a>
                 <p>Desde 1962 cuidando do que<br>realmente importa para você.</p>
                 <div class="social-links"><a href="<?php echo INSTAGRAM_URL; ?>" target="_blank" rel="noopener noreferrer" aria-label="Instagram">◎</a><a href="#" aria-label="Facebook">f</a><a href="<?php echo get_whatsapp_url(); ?>" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">◔</a></div>
             </div>
@@ -19,6 +19,6 @@
         <a href="<?php echo get_whatsapp_url(); ?>" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         <a href="tel:<?php echo PHONE_WHATSAPP_RAW; ?>">Ligar</a>
     </aside>
-    <script src="assets/js/main.js?v=2.0" defer></script>
+    <script src="/assets/js/main.js" defer></script>
 </body>
 </html>

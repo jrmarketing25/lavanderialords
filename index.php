@@ -24,7 +24,7 @@ include __DIR__ . '/includes/header.php';
                 <a href="#servicos" class="btn btn-hero-secondary">Conhecer Serviços <span aria-hidden="true">›</span></a>
             </div>
         </div>
-        <div class="hero-visual"><img src="assets/images/hero-photo.jpg" alt="Toalhas cuidadosamente dobradas na Lord's Lavanderia" width="1024" height="768" fetchpriority="high"></div>
+        <div class="hero-visual"><img src="/assets/images/hero-photo.jpg" alt="Toalhas cuidadosamente dobradas na Lord's Lavanderia" width="1024" height="768" fetchpriority="high"></div>
     </div>
 
     <div class="trust-bar" aria-label="Informações da lavanderia">
@@ -49,10 +49,10 @@ include __DIR__ . '/includes/header.php';
                         <img src="<?php echo htmlspecialchars($service['image']); ?>" alt="<?php echo htmlspecialchars($service['title']); ?>" width="208" height="124" loading="lazy">
                         <?php
                             $icon_map = [
-                                'hanger' => 'assets/images/icon-roupas.png',
-                                'rug'    => 'assets/images/icon-tapetes.png',
-                                'sofa'   => 'assets/images/icon-estofados.png',
-                                'iron'   => 'assets/images/icon-passadoria.png',
+                                'hanger' => '/assets/images/icon-roupas.png',
+                                'rug'    => '/assets/images/icon-tapetes.png',
+                                'sofa'   => '/assets/images/icon-estofados.png',
+                                'iron'   => '/assets/images/icon-passadoria.png',
                             ];
                             $icon_src = $icon_map[$service['icon']] ?? '';
                         ?>
@@ -86,7 +86,7 @@ include __DIR__ . '/includes/header.php';
                     </svg>
                 </span>
             </div>
-            <img src="assets/images/about-heritage.jpg" alt="Toalhas dobradas representando a qualidade da Lord's Lavanderia" width="540" height="400" loading="lazy">
+            <img src="/assets/images/about-heritage.jpg" alt="Toalhas dobradas representando a qualidade da Lord's Lavanderia" width="540" height="400" loading="lazy">
         </div>
         <div class="about-copy">
             <span class="about-eyebrow">SOBRE NÓS</span>
@@ -95,10 +95,10 @@ include __DIR__ . '/includes/header.php';
             <p>Mais de 60 anos depois, seguimos com o mesmo compromisso de qualidade, investindo em tecnologia, equipe especializada e nos melhores produtos para entregar sempre o melhor para você.</p>
         </div>
         <div class="about-benefits">
-            <div><img src="assets/images/about-tradition.png" alt="Tradição" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Mais de 60 anos<br>de tradição</strong></div>
-            <div><img src="assets/images/about-eco.png" alt="Sustentabilidade" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Equipamentos modernos<br>e sustentáveis</strong></div>
-            <div><img src="assets/images/about-team.png" alt="Equipe treinada" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Equipe treinada e<br>atendimento humano</strong></div>
-            <div><img src="assets/images/about-quality.png" alt="Qualidade" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Compromisso com<br>qualidade e prazos</strong></div>
+            <div><img src="/assets/images/about-tradition.png" alt="Tradição" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Mais de 60 anos<br>de tradição</strong></div>
+            <div><img src="/assets/images/about-eco.png" alt="Sustentabilidade" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Equipamentos modernos<br>e sustentáveis</strong></div>
+            <div><img src="/assets/images/about-team.png" alt="Equipe treinada" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Equipe treinada e<br>atendimento humano</strong></div>
+            <div><img src="/assets/images/about-quality.png" alt="Qualidade" class="benefit-icon" width="46" height="46" loading="lazy"><strong>Compromisso com<br>qualidade e prazos</strong></div>
         </div>
     </div>
 </section>
@@ -113,7 +113,7 @@ include __DIR__ . '/includes/header.php';
         <div class="process-grid">
             <article class="process-step">
                 <span class="step-number">1</span>
-                <img src="assets/images/process-step1.png" alt="Sacola de Coleta" class="process-icon" width="64" height="64" loading="lazy">
+                <img src="/assets/images/process-step1.png" alt="Sacola de Coleta" class="process-icon" width="64" height="64" loading="lazy">
                 <div>
                     <h3>Você traz ou<br>solicita coleta</h3>
                     <p>Recebemos suas peças na loja ou buscamos no local combinado.</p>
@@ -122,7 +122,7 @@ include __DIR__ . '/includes/header.php';
 
             <article class="process-step">
                 <span class="step-number">2</span>
-                <img src="assets/images/process-step2.png" alt="Máquina de Lavar" class="process-icon" width="64" height="64" loading="lazy">
+                <img src="/assets/images/process-step2.png" alt="Máquina de Lavar" class="process-icon" width="64" height="64" loading="lazy">
                 <div>
                     <h3>Cuidamos de<br>cada detalhe</h3>
                     <p>Lavamos com produtos premium e processos que preservam suas peças.</p>
@@ -131,7 +131,7 @@ include __DIR__ . '/includes/header.php';
 
             <article class="process-step">
                 <span class="step-number">3</span>
-                <img src="assets/images/process-step3.png" alt="Ferro a Vapor" class="process-icon" width="64" height="64" loading="lazy">
+                <img src="/assets/images/process-step3.png" alt="Ferro a Vapor" class="process-icon" width="64" height="64" loading="lazy">
                 <div>
                     <h3>Higienizamos e<br>passamos</h3>
                     <p>Tudo com acabamento impecável, pronto para usar ou decorar.</p>
@@ -140,7 +140,7 @@ include __DIR__ . '/includes/header.php';
 
             <article class="process-step">
                 <span class="step-number">4</span>
-                <img src="assets/images/process-step4.png" alt="Camisa Polo no Cabide" class="process-icon" width="64" height="64" loading="lazy">
+                <img src="/assets/images/process-step4.png" alt="Camisa Polo no Cabide" class="process-icon" width="64" height="64" loading="lazy">
                 <div>
                     <h3>Entregamos com<br>pontualidade</h3>
                     <p>No prazo combinado, com qualidade que você pode confiar.</p>
@@ -170,7 +170,7 @@ include __DIR__ . '/includes/header.php';
                 </div>
                 <p class="review-text">Atendimento excelente e serviço impecável! Minhas roupas e tapetes ficaram como novos. Super recomendo!</p>
                 <footer class="review-author">
-                    <img src="assets/images/client-juliana.jpg" alt="Juliana M." class="review-avatar" width="44" height="44" loading="lazy">
+                    <img src="/assets/images/client-juliana.jpg" alt="Juliana M." class="review-avatar" width="44" height="44" loading="lazy">
                     <div class="review-author-info">
                         <strong>Juliana M.</strong>
                         <small>Ijuí/RS • Avaliação Google</small>
@@ -190,7 +190,7 @@ include __DIR__ . '/includes/header.php';
                 </div>
                 <p class="review-text">Tradição e qualidade que fazem a diferença. Confio na Lord's há anos!</p>
                 <footer class="review-author">
-                    <img src="assets/images/client-carlos.jpg" alt="Carlos A." class="review-avatar" width="44" height="44" loading="lazy">
+                    <img src="/assets/images/client-carlos.jpg" alt="Carlos A." class="review-avatar" width="44" height="44" loading="lazy">
                     <div class="review-author-info">
                         <strong>Carlos A.</strong>
                         <small>Ijuí/RS • Avaliação Google</small>
@@ -210,7 +210,7 @@ include __DIR__ . '/includes/header.php';
                 </div>
                 <p class="review-text">Equipe atenciosa, serviço rápido e com acabamento perfeito. A melhor de Ijuí!</p>
                 <footer class="review-author">
-                    <img src="assets/images/client-mariana.jpg" alt="Mariana T." class="review-avatar" width="44" height="44" loading="lazy">
+                    <img src="/assets/images/client-mariana.jpg" alt="Mariana T." class="review-avatar" width="44" height="44" loading="lazy">
                     <div class="review-author-info">
                         <strong>Mariana T.</strong>
                         <small>Ijuí/RS • Avaliação Google</small>

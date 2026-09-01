@@ -65,7 +65,7 @@ $main_services = [
         'anchor_id' => 'servico-lavagem-roupas',
         'title' => 'Lavagem de Roupas',
         'description' => 'Roupas limpas, perfumadas e bem cuidadas. Do dia a dia às peças mais especiais.',
-        'image' => 'assets/images/service-roupas.jpg',
+        'image' => '/assets/images/service-roupas.jpg',
         'icon' => 'hanger'
     ],
     [
@@ -73,7 +73,7 @@ $main_services = [
         'anchor_id' => 'servico-lavagem-tapetes',
         'title' => 'Lavagem de Tapetes',
         'description' => 'Removemos sujeiras, ácaros e odores, preservando as cores e a textura do seu tapete.',
-        'image' => 'assets/images/service-tapetes.jpg',
+        'image' => '/assets/images/service-tapetes.jpg',
         'icon' => 'rug'
     ],
     [
@@ -81,7 +81,7 @@ $main_services = [
         'anchor_id' => 'servico-higienizacao-estofados',
         'title' => 'Higienização de Estofados',
         'description' => 'Mais saúde e bem-estar para sua família com higienização profunda e segura.',
-        'image' => 'assets/images/service-estofados.jpg',
+        'image' => '/assets/images/service-estofados.jpg',
         'icon' => 'sofa'
     ],
     [
@@ -89,7 +89,7 @@ $main_services = [
         'anchor_id' => 'servico-passadoria',
         'title' => 'Passadoria',
         'description' => 'Acabamento impecável com praticidade para o seu dia a dia. Peças prontas para usar.',
-        'image' => 'assets/images/service-passadoria.jpg',
+        'image' => '/assets/images/service-passadoria.jpg',
         'icon' => 'iron'
     ]
 ];
