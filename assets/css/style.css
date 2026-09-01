@@ -137,24 +137,8 @@ button { border: 0; font: inherit; }
 
 /* Map */
 /* Location */
-.location-section { position: relative; overflow: hidden; border-top: 1px solid #d8e0e5; }
-.location-section iframe { display: block; width: 100%; height: 155px; border: 0; filter: saturate(.8) contrast(.9); }
-.location-card { position: static; width: auto; margin: 0 16px; transform: translateY(-20px); padding: 18px 20px; color: #fff; background: linear-gradient(145deg, #13285f, #071638); border-radius: 14px; box-shadow: 0 8px 32px rgba(9,24,61,.32); pointer-events: auto; }
-.location-card h2 { color: #fff; font-family: var(--serif); font-size: 20px; font-weight: 600; line-height: 1.15; }
-.loc-divider { display: block; width: 80px; height: 2px; margin: 8px 0 14px; background: var(--gold); border: 0; }
-.loc-info { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.loc-info li { display: flex; align-items: flex-start; gap: 10px; }
-.loc-info li svg { flex: 0 0 16px; width: 16px; height: 16px; margin-top: 2px; color: var(--gold); stroke: var(--gold); }
-.loc-info li span { color: #fff; font-size: 12px; line-height: 1.4; }
-.loc-info li small { display: block; color: #b8cde0; font-size: 11px; margin-top: 1px; }
-.loc-actions { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
-.loc-btn-primary { display: flex; align-items: center; justify-content: center; gap: 7px; height: 40px; border-radius: 8px; background: #7eb5cb; color: #071638; font-size: 13px; font-weight: 700; text-decoration: none; transition: background .2s; }
-.loc-btn-primary svg { width: 14px; height: 14px; stroke: #071638; }
-.loc-btn-primary:hover { background: #93c8dd; }
-.loc-actions-secondary { display: flex; gap: 8px; }
-.loc-btn-secondary { flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px; height: 38px; border-radius: 8px; background: rgba(255,255,255,.1); color: #fff; font-size: 12px; font-weight: 600; text-decoration: none; border: 1px solid rgba(255,255,255,.15); transition: background .2s; }
-.loc-btn-secondary svg { width: 13px; height: 13px; stroke: #7eb5cb; }
-.loc-btn-secondary:hover { background: rgba(255,255,255,.18); }
+.location-section { position: relative; width: 100%; height: 350px; overflow: hidden; border-top: 1px solid #d8e0e5; }
+.location-section iframe { display: block; width: 100%; height: 100%; border: 0; }
 
 
 /* Footer */
@@ -251,8 +235,7 @@ button { border: 0; font: inherit; }
   .review-card { height: auto; min-height: auto; padding: 22px 20px; }
   .review-card > p { font-size: 13px; line-height: 1.55; margin-bottom: 16px; }
 
-  .location-section iframe { height: 320px; }
-  .location-card { margin: 0 24px; }
+  .location-section { height: 360px; }
   .site-footer { padding: 30px 0 42px; }
   .footer-grid { height: auto; grid-template-columns: repeat(2,1fr); gap: 22px; }
   .footer-brand { grid-column: 1 / -1; }
@@ -391,17 +374,7 @@ button { border: 0; font: inherit; }
 
 /* Location — Desktop */
 .location-section { height: 460px; overflow: hidden; }
-.location-section iframe { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; border: 0; }
-.location-card { position: absolute; left: max(32px, calc((100vw - 1380px) / 2)); bottom: 32px; top: auto; transform: none; margin: 0; width: 335px; height: auto; padding: 26px 28px 24px; border-radius: 16px; box-shadow: 0 12px 40px rgba(9,24,61,.38); }
-.location-card h2 { font-size: 26px; }
-.loc-divider { width: 80px; height: 2px; margin: 10px 0 18px; }
-.loc-info { gap: 12px; }
-.loc-info li svg { flex: 0 0 17px; width: 17px; height: 17px; }
-.loc-info li span { font-size: 13px; }
-.loc-info li small { font-size: 12px; }
-.loc-actions { margin-top: 20px; }
-.loc-btn-primary { height: 42px; font-size: 14px; border-radius: 9px; }
-.loc-btn-secondary { height: 40px; font-size: 13px; border-radius: 9px; }
+.location-section iframe { width: 100%; height: 100%; border: 0; }
 
 .site-footer { height: auto; min-height: 280px; padding: 38px 0 34px; }
 .footer-grid { height: auto; grid-template-columns: 1.25fr .7fr 1fr 1.25fr .9fr; gap: clamp(24px, 3vw, 52px); }
@@ -568,9 +541,6 @@ body { font-size: 16px; }
 .review-card > p { min-height: 66px; font-size: 14px; line-height: 1.55; }
 .review-card footer strong { font-size: 12px; }
 .review-card footer small { font-size: 11px; }
-.location-card h2 { font-size: 28px; }
-.loc-info li span { font-size: 14px; }
-.loc-info li small { font-size: 13px; }
 .site-footer { min-height: 320px; }
 .footer-brand p { font-size: 12px; }
 .footer-col h3 { font-size: 13px; }

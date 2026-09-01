@@ -221,7 +221,7 @@ include __DIR__ . '/includes/header.php';
     </div>
 </section>
 
-<section class="location-section" id="contato" aria-labelledby="location-title">
+<section class="location-section" id="contato" aria-label="Localização da Lord's Lavanderia no Google Maps">
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.9930998098794!2d-53.91975912293515!3d-28.389276375798595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fc2d67415d55d3%3A0x99b24a10b28f7eb6!2sLavanderia%20Lord's!5e0!3m2!1spt-BR!2sbr!4v1788217017463!5m2!1spt-BR!2sbr"
         loading="lazy"
@@ -229,43 +229,6 @@ include __DIR__ . '/includes/header.php';
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
     </iframe>
-
-    <div class="location-card" aria-label="Informações de contato e localização">
-        <h2 id="location-title">Lord's Lavanderia</h2>
-        <i class="loc-divider" aria-hidden="true"></i>
-
-        <ul class="loc-info">
-            <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
-                <span>Rua Sete de Setembro, 395<br><small>Centro — Ijuí/RS</small></span>
-            </li>
-            <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.8 8.8 0 0 1-3.7-.9L3 20.5l1.5-5.1a8.5 8.5 0 1 1 16.5-3.9z"/></svg>
-                <span>WhatsApp<br><small>(55) 99663-3439</small></span>
-            </li>
-            <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
-                <span>Telefone<br><small>(55) 3332-1049</small></span>
-            </li>
-        </ul>
-
-        <div class="loc-actions">
-            <a href="https://www.google.com/maps/dir/?api=1&destination=Rua+Sete+de+Setembro,+395,+Iju%C3%AD,+RS" target="_blank" rel="noopener noreferrer" class="loc-btn-primary">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-                Como chegar
-            </a>
-            <div class="loc-actions-secondary">
-                <a href="https://wa.me/5555996633439" target="_blank" rel="noopener noreferrer" class="loc-btn-secondary" aria-label="Conversar no WhatsApp">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.8 8.8 0 0 1-3.7-.9L3 20.5l1.5-5.1a8.5 8.5 0 1 1 16.5-3.9z"/></svg>
-                    WhatsApp
-                </a>
-                <a href="tel:+555533321049" class="loc-btn-secondary" aria-label="Ligar para a lavanderia">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
-                    Ligar
-                </a>
-            </div>
-        </div>
-    </div>
 </section>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
